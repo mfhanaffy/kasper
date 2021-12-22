@@ -277,13 +277,10 @@ let content_header = document.getElementById("nav")
 
 
 button_header.onclick = function(){
-        content_header.classList.toggle("nav_hidden_bybutton")
+        content_header.classList.toggle("nav_hidden_bybutton");
+        button_header.classList.toggle("menue_sidebare");
+
     
     }
-document.onclick = function(e){
-    if(e.target.id !== "menue_sidebare" && e.target.id !== "button_search"){
-       if( content_header.classList.contains("nav_hidden_bybutton")){
-        content_header.classList.remove("nav_hidden_bybutton")}
-    }
-}
+// 
 // 
