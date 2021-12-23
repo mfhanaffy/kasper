@@ -67,7 +67,7 @@ html
     .header > li
     {
         display: none;
-        color: var(--second-color);
+        color:#0f738fe3;
         transition: 1s;
     }
 @media (max-width:785px){

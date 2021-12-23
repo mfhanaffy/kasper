@@ -145,7 +145,8 @@ let SearchIcon = document.getElementById("button_search") ;
 let search = document.getElementById("SEARCH");
 
 SearchIcon.onclick = function (){
-    search.classList.toggle("search_active")
+    search.classList.toggle("search_active") ;
+    window.scrollTo({left:0 , top:0 ,behavior:"smooth"})
 
 }
 
