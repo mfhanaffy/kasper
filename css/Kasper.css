@@ -120,7 +120,7 @@ html
 @media (max-width:785px){
     .header .contaner nav{    
     position: fixed;
-    background-color: #19c9fa;
+    background-color: #0f738fe3;
     height: 100vh;
     right: 0px;
     top: 0;
@@ -131,7 +131,7 @@ html
 }
 }
 @media (max-width:785px){.nav_hidden_bybutton
-    {right: -160px !important;background-color: #19c8fa38 !important;}
+    {right: -160px !important;background-color: #0f738f21 !important;}
 }
     .menue_sidebare
     {
