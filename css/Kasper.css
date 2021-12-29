@@ -1376,7 +1376,7 @@ html
     .contact .contaner 
     {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         width: 100%;
     }
@@ -1389,6 +1389,9 @@ html
         display:flex ;
         flex-flow: column;
         justify-content: space-between;
+    }
+    @media (min-width:775px){
+        .contact .contaner .sned-contact{ flex-basis: 50%;    gap: 20px;}
     }
     @media (max-width:775px){
         .contact .contaner .sned-contact{ width:400px;gap: 16px;}
