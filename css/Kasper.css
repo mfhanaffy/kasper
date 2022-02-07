@@ -15,29 +15,26 @@ html
   padding: 0px;
   font-family: 'Cairo', sans-serif;
   font-family: 'Open Sans', sans-serif;
-
 }
 .contaner
 {
  margin: 0 auto;
  width: 1172px;
-
-
 }
  /* small */
 
  /* small */
  @media (min-width:768px) {
-    .contaner{
-       width:750px ;
+    .contaner{width:750px ;}  ;
+    
 
-    }    
    }
  @media (max-width:768px) {
     .contaner{
        width:100% ;
-
-    }    
+        
+    }   
+     
    }
    /* mediam */
    @media (min-width:992px) {
@@ -56,14 +53,15 @@ html
     } 
     .header
     {
-        position: absolute;
+        position: absolute; 
         margin: 0;
-        padding: 0;
-        width: 100%;
+        padding: 0; 
+        width: 99%; 
         z-index: 2;
-        
-     
     }
+@media(max-width:968px){
+    .header {width: 98%;}
+}
     .header > li
     {
         display: none;
@@ -79,7 +77,6 @@ html
         text-align: center;
         justify-content: space-between;
         /* position: relative; */
-     
     }  
     .header .contaner::after
     {
@@ -90,7 +87,6 @@ html
         position: absolute;
         bottom: 0;
         left: 10px;
-
     }
 @media (max-width:785px){
     .header .contaner::after{display: none !important; background-color:#000}
@@ -101,7 +97,7 @@ html
         padding: 15px;
     }
 @media (max-width:785px){
-    .header .contaner .logo{width: 100%;text-align: center;padding: 8px;}
+    .header .contaner .logo{width: 99%;text-align: center;padding: 8px;}
 }
     .header .contaner .logo img
     {
@@ -265,7 +261,7 @@ html
         /* background-image: url(../images/owl-g6268a131e_1920.jpg) ; */
         /* background-image: url(../images/owl-gc6ea6d033_1920.jpg) ; */
         height: 100vh;
-        width: 100vw;
+        /* width: 100vw; */
         position: relative;
         top: 0;
         right: 0; 
@@ -707,10 +703,6 @@ html
     {
         bottom: 0;
 
-    }
-    .portfolio_hidden
-    {
-        display: none;
     }
     .PORTFOLIO .button
     {
