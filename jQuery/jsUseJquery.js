@@ -163,6 +163,10 @@ $(document).ready(
         $("#icon2_TESTIMONIALS").addClass("center");
         $(".our-skills .contaner .TESTIMONIALS .project_personality .all-personality").addClass("rotate_TESTIMONIALS")
     }),
+    $("#menue_sidebare").on("click" , function(){
+        $(this).toggleClass("menue_sidebare");
+        $(".header .contaner nav").toggleClass("nav_hidden_bybutton");
+    }),
     $(document).on("click" , function(e){
         if(e.target.id !== "button_search" && e.target.id !== "SEARCH" ){
             $("#SEARCH").removeClass("search_active")};
