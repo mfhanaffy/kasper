@@ -102,6 +102,7 @@ $(document).ready(
         }
     }),
     $(".PORTFOLIO .contaner .chose ul li").on("click" , function(){
+        $("#portfolio_more").text("more");
         $(".PORTFOLIO .contaner .chose ul li").each(function(){
             $(".PORTFOLIO .contaner .chose ul li").removeClass("active")
         });
@@ -173,3 +174,5 @@ $(document).ready(
             console.log(e.target.id);
     })
 )
+
+// $("#portfolio_more").text()
